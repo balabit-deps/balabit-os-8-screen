@@ -1,3 +1,12 @@
+screen (4.8.0-1ubuntu0.1) focal-security; urgency=medium
+
+  * SECURITY UPDATE: DoS via crafted UTF-8 character sequence
+    - debian/patches/99_CVE-2021-26937.patch: fix out of bounds array
+      access in encoding.c.
+    - CVE-2021-26937
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 23 Feb 2021 12:46:21 -0500
+
 screen (4.8.0-1) unstable; urgency=medium
 
   * Import new upstream release 4.8.0.

@@ -15,3 +15,4 @@
 80_session_creation_docs.patch
 81_session_creation_util.patch
 82_session_creation_core.patch
+99_CVE-2021-26937.patch
